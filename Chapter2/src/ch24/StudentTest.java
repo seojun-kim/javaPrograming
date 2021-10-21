@@ -1,3 +1,4 @@
+
 package ch24;
 
 public class StudentTest {
@@ -14,7 +15,8 @@ public class StudentTest {
         studentKim.addSubject("수학", 85);
         studentKim.addSubject("영어", 100);
 
-        studentLee.showScoreInfo();
-        studentKim.showScoreInfo();
+        studentLee.showStudentInfo();
+        System.out.println("======================================");
+        studentKim.showStudentInfo();
     }
 }
