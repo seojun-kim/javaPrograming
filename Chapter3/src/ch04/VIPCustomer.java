@@ -16,11 +16,17 @@ public class VIPCustomer extends Customer {
         System.out.println("VIPCustomer() call");
     }
 
+    @Override
+    public int calcPrice(int price) {
+
+        bonusPoint += price * bonusRatio;
+
+        price -= (int)(price * salesRatio);
+        return price;
+    }
+
     public String getAgentID() {
         return agentID;
     }
 
-    public void setAgentID(String agentID) {
-        this.agentID = agentID;
-    }
 }
