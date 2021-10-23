@@ -1,6 +1,7 @@
 package ch06;
 
 import java.beans.ConstructorProperties;
+import java.util.ArrayList;
 
 class Animal {
 
@@ -21,6 +22,18 @@ class Human extends Animal {
     }
 }
 
+class Eagle extends Animal {
+
+    @Override
+    public void move() {
+        System.out.println("날아다닌다.");
+    }
+
+    public void flying() {
+        System.out.println("날개를 피고 난다.");
+    }
+}
+
 class Tiger extends Human {
 
     @Override
@@ -37,6 +50,27 @@ public class AnimalTest {
 
     public static void main(String[] args) {
 
+        Animal hAnimal = new Human();
+        Animal tAnimal = new Tiger();
+        Animal eAnimal = new Eagle();
 
+        AnimalTest test = new AnimalTest();
+
+        test.moveAnimal(hAnimal);
+        test.moveAnimal(tAnimal);
+        test.moveAnimal(eAnimal);
+
+        ArrayList<Animal> animalList = new ArrayList<>();
+        animalList.add(hAnimal);
+        animalList.add(tAnimal);
+        animalList.add(eAnimal);
+
+        for(Animal animal : animalList) {
+            animal.move();
+        }
+    }
+
+    public void moveAnimal(Animal animal) {
+        animal.move();
     }
 }
