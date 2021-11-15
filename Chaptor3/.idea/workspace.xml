@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5953128c-76a0-4b9d-be2d-da06a7a4062e" name="Changes" comment="" />
+    <list default="true" id="5953128c-76a0-4b9d-be2d-da06a7a4062e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Chapter3/src/ch11/Calc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter3/src/ch11/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter3/src/ch11/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter3/src/ch11/CompleteCalc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter3/src/ch11/asd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter3/src/ch13/domain/userinfo/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter3/src/ch13/domain/userinfo/dao/UserInfoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter3/src/ch13/domain/userinfo/dao/mysql/UserInfoMySqlDao.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,16 +32,6 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
-      <setting name="path" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$" />
-      <setting name="debug" value="false" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Chaptor3" />
       <method v="2">
@@ -68,5 +67,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
