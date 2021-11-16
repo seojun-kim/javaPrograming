@@ -17,6 +17,11 @@ public class CompleteCalc extends Calculator {
         }
     }
 
+    @Override
+    public void description() {
+
+    }
+
     public void showInfo() {
         System.out.println("구현 완료");
     }
