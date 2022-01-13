@@ -8,7 +8,7 @@ public class Student {
     String majorName;
     int grade;
 
-    public Student() {}
+    public Student(int i, String lee) {}
 
     public Student(int studentNumber, String studentName, int majorCode, String majorName, int grade) {
 
